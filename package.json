@@ -1,0 +1,43 @@
+{
+  "name": "vehicleBack",
+  "description": "vehicle Backend with nodejs",
+  "version": "0.0.1",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-multiparty": "^2.2.0",
+    "ejs": "^3.1.8",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-myconnection": "*",
+    "express-validator": "^6.14.2",
+    "file-cookie-store": "^0.1.1",
+    "instagram-web-api": "^2.2.2",
+    "jalali-moment": "^3.3.10",
+    "jimp": "^0.16.1",
+    "lodash": "latest",
+    "mime-types": "latest",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "multiparty": "latest",
+    "mysql": "^2.18.1",
+    "mysql2": "*",
+    "nanoid": "^3.1.22",
+    "nodemailer": "^6.6.3",
+    "tough-cookie-filestore2": "^1.0.0"
+  },
+  "devDependencies": {
+    "canvas": "^2.8.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express-session": "^1.17.1",
+    "jsonwebtoken": "^9.0.0",
+    "pbkdf2-password": "^1.2.1",
+    "request": "^2.88.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
